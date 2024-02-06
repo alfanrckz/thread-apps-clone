@@ -14,6 +14,7 @@ import {
 
 import { FaHeart } from "react-icons/fa";
 import { LiaCommentSolid } from "react-icons/lia";
+import { BiSolidImageAdd } from "react-icons/bi";
 import postData from "../../../mocks/post.json";
 
 interface PostData {
@@ -55,8 +56,10 @@ export default function MainContent() {
                 placeholder="What's Happening?!"
                 size="lg"
                 marginX="auto"
+                border="none"
               />
               <Center>
+                <BiSolidImageAdd />
                 <Button colorScheme="green" ml={3} borderRadius="20%">
                   post
                 </Button>
